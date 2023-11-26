@@ -1,0 +1,11 @@
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\bin\Debug\net6.0\StructEnum.Domain.deps.json
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\bin\Debug\net6.0\StructEnum.Domain.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\bin\Debug\net6.0\StructEnum.Domain.pdb
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.AssemblyInfoInputs.cache
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.AssemblyInfo.cs
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\refint\StructEnum.Domain.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\StructEnum.Domain.pdb
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Domain\obj\Debug\net6.0\ref\StructEnum.Domain.dll
