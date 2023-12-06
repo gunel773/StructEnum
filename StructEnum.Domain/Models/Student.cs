@@ -21,7 +21,11 @@ namespace StructEnum.Domain.Models
 
         public void StudentInfo()
         {
-            Console.WriteLine($" {Id}){Fullname}:{Point} bal toplamışdır.");
+            Console.WriteLine(ToString());
+        }
+        public override string ToString()
+        {
+            return $"{Id}){Fullname}- {Point}";
         }
     }
 }

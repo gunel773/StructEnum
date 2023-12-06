@@ -5,8 +5,9 @@ namespace StructEnum.Domain.Interface
 {
     public interface IGroup
     {
-        public string CheckGroupNo(string groupNo);
-        public Student AddStudent( Student student);
-        public string GetStudent(Nullable <int> id);
+        public bool CheckGroupNo(string groupNo);
+        public void AddStudent( Student student);
+        public void GetStudent(int id);
+        public void GetAllStudent();
     }
 }

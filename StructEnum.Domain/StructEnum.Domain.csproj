@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StructEnum.Helper\StructEnum.Helper.csproj" />
+  </ItemGroup>
+
 </Project>

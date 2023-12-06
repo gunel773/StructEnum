@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructEnum", "StructEnum\StructEnum.csproj", "{90A9E16B-7D94-4FC8-BE3E-29B9122467E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructEnum", "StructEnum\StructEnum.csproj", "{90A9E16B-7D94-4FC8-BE3E-29B9122467E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructEnum.Domain", "StructEnum.Domain\StructEnum.Domain.csproj", "{45D8F63B-51C7-4B0C-B5F5-5047FB78BBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructEnum.Domain", "StructEnum.Domain\StructEnum.Domain.csproj", "{45D8F63B-51C7-4B0C-B5F5-5047FB78BBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructEnum.Helper", "StructEnum.Helper\StructEnum.Helper.csproj", "{199993A8-645A-4F4A-8A5A-00A675F6E930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{45D8F63B-51C7-4B0C-B5F5-5047FB78BBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D8F63B-51C7-4B0C-B5F5-5047FB78BBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D8F63B-51C7-4B0C-B5F5-5047FB78BBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199993A8-645A-4F4A-8A5A-00A675F6E930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199993A8-645A-4F4A-8A5A-00A675F6E930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199993A8-645A-4F4A-8A5A-00A675F6E930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199993A8-645A-4F4A-8A5A-00A675F6E930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,77 +1,99 @@
 ﻿using StructEnum.Domain.Interface;
-
+using StructEnum.Helper.Messages;
 using System.Text.RegularExpressions;
 
 
 namespace StructEnum.Domain.Models
 {
-    public class Group:Student ,IGroup
+    public class Group:IGroup
     {
-        public string GroupNo { get; set; }
-        private int _studentslimit;
-        private Student[] Students { get; set; }
-
-
-
-
-        public Group(string fullname, int point) : base(fullname, point)
-        {
-        }
-
-        public int StudentsLimit 
+        public int Id { get; set; }
+        private string _groupNo;
+        public string GroupNo 
         {
             get
             {
-                return _studentslimit;
+                return _groupNo;
             }
-
             set
             {
-                if(Students.Length>5& Students.Length < 18)
+                if(CheckGroupNo(value))
                 {
-                    Console.WriteLine("Limit kecilmeyib. Telebe qebul edile biler");
+                    _groupNo = value;
+                    Console.WriteLine(InfoMessage.SuccessMessage);
+                    return;
                 }
-                else
+                Console.WriteLine(InfoMessage.FailMessage);
+                return;
+            }
+
+        }
+        private int _studentslimit;
+        public int StudentLimit
+        {
+            get { return _studentslimit; }
+            set
+            {
+                if (value>=5 && value<=18)
                 {
-                    Console.WriteLine("Qrup dolub...");
+                    _studentslimit = value;
+                    return;
                 }
-                
+                Console.WriteLine(InfoMessage.LimitMessage);
             }
         }
+        private Student[] Students =new Student[0];
 
-        public string CheckGroupNo(string groupNo)
+       
+        public Group(int studentLimit, string groupNo)
         {
+            StudentLimit = studentLimit;
             GroupNo = groupNo;
-            if (string.IsNullOrEmpty(GroupNo))
-            {
-                Console.WriteLine("Siz hec bir nomre daxil etmemisiniz");
-            }
-
-            bool pattern = Regex.IsMatch(GroupNo, @"^[A-Z]{2}[0-9]{3}$");
-            if (pattern)
-            {
-                return $"giriş edildi";
-            }
-            return "Daxil etdiyiniz nomre tapilmadi";
+           
         }
 
-        Student[] students=new Student[StudentsLimit];
 
-        public string GetStudent(int? id)
+
+
+
+        public bool CheckGroupNo(string groupNo)
         {
-            if (!id.HasValue)
-            {
-                return null;
-            }
 
+            return new Regex(@"^[A-Z]{2}[0-9]{3}$").IsMatch(groupNo);
+
+        }
+
+        public void GetStudent(int id)
+        {
+            foreach (var student in Students)
+            {
+                if (student.Id==id)
+                {
+                    Console.WriteLine(student);
+                    return;
+                }
+            }
+            Console.WriteLine($" Student Not Found, which id={id}");
+        }
+
+        public void AddStudent(Student student)
+        {
+            if (Students.Length >= StudentLimit) return;
+
+            Array.Resize ( ref Students, Students.Length+1);
+            Students[Students.Length-1]= student;
+            Console.WriteLine($"{student} added is group");
+
+
+        }
+
+        public void GetAllStudent()
+        {
+            foreach (var student in Students)
+            {
+                Console.WriteLine(student);
+            }
             
-            Student student = students.Find(a => a.Id == id.Value);
-            return student.Fullname;
-        }
-
-        public Student AddStudent(Student student)
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\bin\Debug\net6.0\StructEnum.Helper.deps.json
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\bin\Debug\net6.0\StructEnum.Helper.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\bin\Debug\net6.0\StructEnum.Helper.pdb
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.AssemblyInfoInputs.cache
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.AssemblyInfo.cs
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\refint\StructEnum.Helper.dll
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\StructEnum.Helper.pdb
+C:\Users\Honor MagicBook\Downloads\StructEnum\StructEnum.Helper\obj\Debug\net6.0\ref\StructEnum.Helper.dll

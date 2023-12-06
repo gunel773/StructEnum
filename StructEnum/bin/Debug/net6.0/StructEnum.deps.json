@@ -15,8 +15,16 @@
         }
       },
       "StructEnum.Domain/1.0.0": {
+        "dependencies": {
+          "StructEnum.Helper": "1.0.0"
+        },
         "runtime": {
           "StructEnum.Domain.dll": {}
+        }
+      },
+      "StructEnum.Helper/1.0.0": {
+        "runtime": {
+          "StructEnum.Helper.dll": {}
         }
       }
     }
@@ -28,6 +36,11 @@
       "sha512": ""
     },
     "StructEnum.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StructEnum.Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

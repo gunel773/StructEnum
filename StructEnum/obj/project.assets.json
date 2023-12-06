@@ -5,11 +5,24 @@
       "StructEnum.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "StructEnum.Helper": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/StructEnum.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/StructEnum.Domain.dll": {}
+        }
+      },
+      "StructEnum.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StructEnum.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StructEnum.Helper.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../StructEnum.Domain/StructEnum.Domain.csproj",
       "msbuildProject": "../StructEnum.Domain/StructEnum.Domain.csproj"
+    },
+    "StructEnum.Helper/1.0.0": {
+      "type": "project",
+      "path": "../StructEnum.Helper/StructEnum.Helper.csproj",
+      "msbuildProject": "../StructEnum.Helper/StructEnum.Helper.csproj"
     }
   },
   "projectFileDependencyGroups": {

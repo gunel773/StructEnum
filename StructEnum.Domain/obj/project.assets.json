@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "StructEnum.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StructEnum.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StructEnum.Helper.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StructEnum.Helper/1.0.0": {
+      "type": "project",
+      "path": "../StructEnum.Helper/StructEnum.Helper.csproj",
+      "msbuildProject": "../StructEnum.Helper/StructEnum.Helper.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "StructEnum.Helper >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Honor MagicBook\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Honor MagicBook\\Downloads\\StructEnum\\StructEnum.Helper\\StructEnum.Helper.csproj": {
+              "projectPath": "C:\\Users\\Honor MagicBook\\Downloads\\StructEnum\\StructEnum.Helper\\StructEnum.Helper.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
